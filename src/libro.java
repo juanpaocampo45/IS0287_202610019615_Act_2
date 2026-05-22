@@ -4,12 +4,10 @@ public class Principal {
 
         Libro libro1 = new Libro(); // Usa constructor por defecto
 
-        Libro libro2 = new Libro(
-                "Cien años de soledad",
-                "Gabriel Garcia Márquez",
-                432,
-                "978-8437604947"
-        );
+        Libro libro2 = new Libro(titulo:"cien años de soledad", autor:"gabriel garcia marquez",
+            numeroPaginas:432, isbn:"978-8437604947");
+                
+        
 
         libro1.mostrarInfo();
         libro2.mostrarInfo();
